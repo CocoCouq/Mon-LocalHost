@@ -1,0 +1,44 @@
+header, main:not(#mainExo)
+{
+    background-image: url(../../assets/images/background_bee.jpg);
+    background-size: cover;
+}
+#GitH
+{
+    max-height: 75px;
+    max-width: 75px;
+}
+nav
+{
+    opacity: 0.6;
+}
+nav:hover
+{
+    opacity: 0.8;
+}
+.liensMenu:hover
+{
+    background-color: #5c6bc0;
+}
+body:not(#bodyExo)
+{
+    max-height: 100vh;
+}
+main
+{
+    margin: auto !important;
+    margin-bottom: 20px !important;
+}
+#retourExo
+{
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+.enonceExo
+{
+    padding: 2vw !important;
+}
+#titreExo
+{
+    padding-bottom: 3vw;
+}
