@@ -1,8 +1,8 @@
-#MyLocalHost - WIP
+# MyLocalHost - WIP
 
-##Overview :
+## Overview :
 
-######Realization of a Local Host Manager
+###### Realization of a Local Host Manager
 
 The Local Host is composed of a launch file "MyLocalHost" which includes the configuration files.
 
@@ -10,7 +10,7 @@ The Local Host is composed of a launch file "MyLocalHost" which includes the con
 You can move and launch your exercises from the "Show" and "WIP" folders.
 A normal processing area is available.
 
-######In "Show" and "WIP" you can use the formatting system with the appropriate tags :
+###### In "Show" and "WIP" you can use the formatting system with the appropriate tags :
 - h3 -> Titles 
 - h5 -> Statements
 - h6 -> Code Result
@@ -35,7 +35,7 @@ And finish by :
 
 
 
-#TO DO :
+# TO DO :
 
 - Gérer la convertion des balises 'pre'
 - Mettre en place la zone 
