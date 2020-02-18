@@ -10,6 +10,7 @@
     <body class="indigo lighten-1">
         
         <?php 
+            $filtreRepo = '/(\.DS_Store)|(README\.md)|(MyLocalHost)|(\.\.)|(\.)|(LICENSE)/';
             // Recupération de mon localhost
             $repo = scandir('../../../../../../../../../../../../Applications/MAMP/htdocs');
         ?>
@@ -51,7 +52,7 @@
                             <?php 
                                 $i = 0;
                                 foreach($repo as $value) { 
-                                    if($repo[$i] != 'MyLocalHost' && $repo[$i] != '..' && $repo[$i] != '.DS_Store') {
+                                    if(!preg_match($filtreRepo, $repo[$i])) {
                              ?>
                             <li><a class="liensMenu" href="<?php echo '../'.$repo[$i]; ?>"><?php echo $repo[$i]; ?></a></li>
                                 <?php 
@@ -77,7 +78,7 @@
                     <?php 
                          $i = 0;
                          foreach($repo as $value) { 
-                             if($repo[$i] != 'MyLocalHost' && $repo[$i] != 'Presentations') {
+                             if(!preg_match($filtreRepo, $repo[$i])) {
                      ?>
                     <li><a href="<?php echo '../'.$repo[$i]; ?>"><?php echo '../'.$repo[$i]; ?></a></li>
                      <?php 
