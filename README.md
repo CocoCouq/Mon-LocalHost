@@ -32,15 +32,15 @@ To display code :
 ### Automatic generation of a navigation menu
 
 A menu is automatically generated using code formatting. 
-It references and directs to the desired item.
+It references and redirects you to the desired item.
 
-##### Before use this, start document with : 
+##### Before using this, start the document with : 
 ```php
 <?php $title = 'Your Title'; ?>
 <?php include '../../MyLocalHost/assets/config/config.php'; ?>
 ```
 
-And finish by :
+And finish with :
 ```php
 <?php Close(); ?>
 ```
