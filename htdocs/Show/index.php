@@ -12,7 +12,7 @@
         <?php 
             $filtreRepo = '/(\.DS_Store)|(README\.md)|(MyLocalHost)|(\.\.)|(\.)|(LICENSE)/';
             // Recupération de mon localhost
-            $repo = scandir('../../../../../../../../../../../../Applications/MAMP/htdocs');
+            $repo = scandir('../');
         ?>
         
 <!-- Header -->
@@ -91,7 +91,7 @@
         </header>
         <?php 
             // Recupération de mon dossier
-            $All = scandir('../../../../../../../../../../../../Applications/MAMP/htdocs/Show');
+            $All = scandir('./');
         ?>
 <!-- Main -->
         <main class="z-depth-3 container card-panel white-text center-align row">
